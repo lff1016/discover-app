@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server'
 import { currentProfile } from "@/lib/current-profile";
 import { db } from "@/lib/db";
 
-
+// 新增
 export async function POST(req: Request) {
   try {
     const {name, imageUrl} = await req.json();

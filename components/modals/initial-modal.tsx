@@ -68,7 +68,7 @@ const InitialModal = () => {
                     <FormItem>
                       <FormControl>
                         <div className='text-black'>
-                          <FileUpload endpoint='serverImage' onChange={field.onChange} value={field.value}/>
+                          <FileUpload endpoint='messageFile' onChange={field.onChange} value={field.value}/>
                         </div>
                       </FormControl>
                     </FormItem>
