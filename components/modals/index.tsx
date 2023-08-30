@@ -1,0 +1,1 @@
+export {default as InitialModal} from './initial-modal'
